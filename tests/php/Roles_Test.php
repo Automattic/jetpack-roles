@@ -1,4 +1,4 @@
-<?php // phpcs:ignore WordPress.Files.FileName.InvalidClassFileName
+<?php
 /**
  * Tests the Roles package/
  *
@@ -13,11 +13,11 @@ use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class Test_Roles
+ * Class Roles_Test
  *
  * @package Automattic\Jetpack
  */
-class Test_Roles extends TestCase {
+class Roles_Test extends TestCase {
 	use MockeryPHPUnitIntegration;
 
 	/**
